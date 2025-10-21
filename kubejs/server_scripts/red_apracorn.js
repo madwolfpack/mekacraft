@@ -1,0 +1,31 @@
+ServerEvents.recipes(event => {
+  event.custom({
+    "type": "mekanism:chemical_conversion",
+    "input": {
+      "count": 1,
+      "item": "cobblemon:red_apricorn"
+    },
+    "output": {
+      "amount": 10,
+      "id": "kubejs:red_apricorn_infusion"
+    }
+  });
+});
+
+ServerEvents.recipes(event => {
+event.custom({
+      "type": "mekanism:metallurgic_infusing",
+      "chemical_input": {
+        "amount": 100,
+        "chemical": "kubejs:red_apricorn_infusion"
+      },
+      "item_input": {
+        "count": 1,
+        "item": "minecraft:stone"
+      },
+      "output": {
+        "id": "cobblemon:poke_ball",
+        "count": 4
+      }
+    });
+  });
