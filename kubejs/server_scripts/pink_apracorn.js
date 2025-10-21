@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
 event.custom({
       "type": "mekanism:metallurgic_infusing",
       "chemical_input": {
-        "amount": 100,
+        "amount": 180,
         "chemical": "kubejs:pink_apricorn_infusion"
       },
       "item_input": {

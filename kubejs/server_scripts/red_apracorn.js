@@ -21,7 +21,7 @@ event.custom({
       },
       "item_input": {
         "count": 1,
-        "item": "minecraft:stone"
+        "item": "kubejs:spacial_core"
       },
       "output": {
         "id": "cobblemon:poke_ball",
