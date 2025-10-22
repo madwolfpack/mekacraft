@@ -29,3 +29,33 @@ event.custom({
       }
     });
   });
+
+
+ServerEvents.recipes(event => {
+  event.custom({
+    "type": "mekanism:enriching",
+    "input": {
+      "item": "cobblemon:blue_apricorn"
+    },
+    "output": {
+      "id": "kubejs:blue_apricorn_compressed",
+      "count": 1
+    }
+  });
+});
+
+
+
+ServerEvents.recipes(event => {
+  event.custom({
+    "type": "mekanism:chemical_conversion",
+    "input": {
+      "count": 1,
+      "item": "kubejs:blue_apricorn_compressed"
+    },
+    "output": {
+      "amount": 40,
+      "id": "kubejs:blue_apricorn_infusion"
+    }
+  });
+});

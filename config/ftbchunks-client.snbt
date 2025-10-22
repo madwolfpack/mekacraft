@@ -133,13 +133,13 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"cobblemon:pokemon": true
-			"minecraft:pig": true
 			"minecraft:villager": true
-			"minecraft:iron_golem": true
+			"minecraft:horse": true
 			"minecraft:cow": true
 			"minecraft:sheep": true
-			"minecraft:horse": true
+			"minecraft:iron_golem": true
+			"minecraft:pig": true
+			"cobblemon:pokemon": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
